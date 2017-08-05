@@ -6,9 +6,10 @@
   "author": "ohbarye <over.rye@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "electron"
+    "start": "electron ./src/index.js"
   },
   "dependencies": {
-    "electron": "^1.6.11"
+    "electron": "^1.6.11",
+    "monaco-loader": "^0.8.2"
   }
 }
